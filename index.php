@@ -158,6 +158,7 @@ $queryString_rsHardwareCount = sprintf("&totalRows_rsHardwareCount=%d%s", $total
             <li><a href="ReportsAllPeripherals.php">All Peripherals</a></li>
             <li><a href="ReportsAllInventory.php">All Desktop Hardware </a></li>
             <li><a href="ReportsAllInventory.php">All Server Hardware </a></li>
+            li><a href="ReportsAllInventory.php">Alls Servers Hardwares </a></li>
           </ul>
         </td>
       </tr>
