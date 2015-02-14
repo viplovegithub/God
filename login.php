@@ -117,6 +117,7 @@ if (isset($_POST['myusername'])) {
 </div>
   <div id="footer">
     <p><?php echo date("D M dS, Y - h:i a"); ?><br />
+     <!-- <p> <br />-->
     <em>Enterprise Asset Management - by <a href="http://www.Bigsmallweb.com">Bigsmallweb</a></em></p>
   </div>
 </div>
