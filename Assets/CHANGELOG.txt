@@ -1,0 +1,32 @@
+CHANGE LOG - Enterprise Asset Management - Graham Fisk 2013
+
+--// Version 3.0 - 04/13/2013  //--
+
+File Changes
+1) /includes/header.php - Line 39 chaged for PHP 5.3+ "Function session_register() is deprecated" error message
+2) /login.php - Line 83 fixed Dynamic Company Name title 
+3) /logout.php - fixed layout
+4) /HardwareAdd.php - added Asset Tag & Purhcase Order fields
+5) /HardwareView.php - added Asset Tag & Purhcase Order fields
+6) /HardwareUpdate.php - added Asset Tag & Purhcase Order fields
+7) /search.php - added Asset Tag & Purhcase Order fields, fixed broken serial number search
+8) /searchResults.php - added Asset Tag & Purhcase Order fields, fixed broken serial number search
+
+Database changes
+1) For Upgrades: /Assets/DatabaseUpdate2-3.sql - Upgrade Database for existing 2.0 users. Adds Asset Tag & Purhcase Order columns
+2) For New Installs:  /Assets/eam.sql - added columns Asset Tag & Purhcase Order columns
+
+
+
+--// Version 2.0 - 02/12/12  //--
+
+Changes
+1) All files
+2) Database
+3) Layout, logo, graphic files, Assets folder
+
+
+
+--// Version 1.0 - 02/25/09  //--
+
+1) Hello World
